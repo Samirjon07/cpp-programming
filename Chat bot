@@ -6,11 +6,11 @@ int main(){
     string text;
     cout<<"Hello sir!"<<endl;
     cin>>text;
-    if(text=="hi" && "hello")
+    if(text=="hi" || "hello")
     {
         cout<<"My name is Jarvis. How can I help you? "<<endl;
         cin>>text;
-        if(text=="I have to learn math, Where can I do that?" &&"i have to learn math, where can i do that?" )
+        if(text=="I have to learn math, Where can I do that?" ||"i have to learn math, where can i do that?" )
         {
             cout<<" Oh, There is a centre called Mkh_Math centre "<<endl;
             cin>>text;
