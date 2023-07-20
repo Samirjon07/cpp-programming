@@ -6,10 +6,10 @@ int main(){
     double num;
     cout<<"Enter the number: "<<endl;
     cin>>num;
-    if(num >0){
-        cout<<"Positive number"<endl;
+    if(num>0){
+        cout<<"Positive number"<<endl;
     }
-    else if(num < 0){
+    else if(num<0){
         cout<<"Negative number"<<endl;
     }
     else{
