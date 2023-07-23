@@ -1,0 +1,19 @@
+#include<iostream>
+#include<string>
+
+using namespace std;
+
+int main(){
+  string age;
+  cout<<"Enter your age:"<<endl;
+  cin>>age;
+  if(age <= 18){
+      cout<< "Welcome, you are an adult"<<endl;
+  }
+  else{
+      cout<< "Incorrect please enter your age again"<<endl;
+      cin>>age;
+  }
+    return 0;
+    
+}
