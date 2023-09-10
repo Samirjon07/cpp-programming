@@ -1,7 +1,7 @@
 Write a program using functions: 
 Create 2 functions to calculate the area and
 perimeter of a rectangle, and the functions should return values. Pass sides of
-the rectangle as arguments to function. Call functions and print results in
+the rectangle as arguments to function.Call functions and print results in
 console. No need to take user inputs, just write down the values of sides in the code.
 
 #include <iostream>
