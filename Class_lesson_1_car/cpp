@@ -1,0 +1,31 @@
+/*Define a class called Car with attributes like model , and year . Create an object of the Car class and set its attributes.
+Then, print out the car's details.*/
+
+#include<iostream>
+using namespace std;
+ class car{
+     
+    public:
+        string model;
+        string year;
+        
+            void introduce(){
+                cout<<"Model: "<< model<<endl <<"Year: "<< year <<endl<<endl;
+            }  
+ };
+ 
+ int main(){
+    car car1;
+    car car2;
+    
+    car1.model="Mercedes Benz W202 C-class";
+    car1.year="2023- 30 km run";
+    
+    car2.model="BMW X7 (G07)";
+    car2.year="2022- 500 km run";
+    
+    car1.introduce();
+    car2.introduce();
+    
+    return 0;
+ }
